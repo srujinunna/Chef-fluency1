@@ -14,6 +14,6 @@ service 'httpd' do
    action [:enable, :restart]
 end
 
-
+include_recipe recipe/file.rb
 
    

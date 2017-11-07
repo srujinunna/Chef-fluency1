@@ -6,7 +6,7 @@ package 'apache' do
 end
 
 service 'httpd' do
-  action [:enable, :restart]
+  action [:enable, :start]
 end
 
 
